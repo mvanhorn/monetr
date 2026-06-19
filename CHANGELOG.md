@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.15.2](https://github.com/monetr/monetr/compare/v1.15.1...v1.15.2) (2026-06-19)
+
+
+### Dependencies
+
+* **api:** update golang.org/x to v0.46.0 ([#3329](https://github.com/monetr/monetr/issues/3329)) ([229d73a](https://github.com/monetr/monetr/commit/229d73ae5cfc2aa09f003ca0bca893c728655897))
+* **ui:** update lucide monorepo to v1.18.0 ([#3336](https://github.com/monetr/monetr/issues/3336)) ([e363be5](https://github.com/monetr/monetr/commit/e363be54c9ef8ba09eddfcafbe20098b029f15b6))
+* **ui:** update pnpm to v10.34.3 ([#3331](https://github.com/monetr/monetr/issues/3331)) ([5fd7aff](https://github.com/monetr/monetr/commit/5fd7aff6c96917498aee3ffcc94be0b14947e7f4))
+* **ui:** update rsbuild to v2.0.12 ([#3327](https://github.com/monetr/monetr/issues/3327)) ([872714f](https://github.com/monetr/monetr/commit/872714f9c3a148e388c6ee4599f3f9be30bec0e4))
+
+
+### Refactor
+
+* **api:** Adding schema validation to challenge endpoint ([a4900a7](https://github.com/monetr/monetr/commit/a4900a755230724d10bf1c476d308f3db4a5b714))
+* **api:** Code clean up ([501f246](https://github.com/monetr/monetr/commit/501f2464a99822fca739434e928d440463074ef9))
+* **api:** Login API schema validation ([#3333](https://github.com/monetr/monetr/issues/3333)) ([000ae40](https://github.com/monetr/monetr/commit/000ae400b6a3c95ab15d0c2e09bd53b279e124ad))
+* **api:** Migrating from `context.Background` to `t.Context` ([daf63c8](https://github.com/monetr/monetr/commit/daf63c8a27427b8ec845a96c334b31f26c9af6a5))
+* **api:** More code quality cleanup ([23999b8](https://github.com/monetr/monetr/commit/23999b8fc98e215fff2a3e45ddf404805439d7c0))
+* **api:** More code quality improvements ([c56709f](https://github.com/monetr/monetr/commit/c56709f217603cfea0f9f172f6c98296a4270f15))
+
+
+### Documentation
+
+* Fixing miscommunication on proof of work docs ([c1f4d24](https://github.com/monetr/monetr/commit/c1f4d24151ed7b31cdbce035eb5475725797fc56))
+
 ## [1.15.1](https://github.com/monetr/monetr/compare/v1.15.0...v1.15.1) (2026-06-18)
 
 
